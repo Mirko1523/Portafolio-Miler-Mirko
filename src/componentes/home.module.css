@@ -1,0 +1,230 @@
+.backgroundHome {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(233, 230, 230, 0.938);
+    padding: 20px;
+    text-align: left;
+    color: #333;
+    max-width: 770px; 
+    margin: 0 auto; 
+}
+
+
+.basicInformation {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.basicInformation h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10vh;
+}
+
+
+.img img {
+    display: flex;
+    margin-left: auto; 
+    margin-top: -30vh;
+    width: 35vh;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+
+.basicInformation p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+
+
+.basicInformation div {
+    margin-top: 10px;
+}
+
+
+.basicInformation a img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+
+.backgroundAboutMe {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.backgroundAboutMe h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.backgroundAboutMe p {
+    font-size: 1rem;
+     font-family: monospace;
+}
+
+
+.backgroundExperiency {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.backgroundExperiency h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.backgroundExperiency h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+   
+}
+
+
+.backgroundExperiency p {
+    font-size: 1rem;
+     font-family: monospace;
+}
+
+
+.backgroundExperiency hr {
+    margin: 10px 0;
+    border-color: #e0e0e0;
+}
+
+
+.education {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.education h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.education h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+       
+}
+
+
+.education p {
+    font-size: 1rem;
+     font-family: monospace;
+}
+
+
+.skills {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+
+.skills h1 {
+    font-size: 2rem;
+    margin-bottom: 6vh;
+}
+
+
+.skills p {
+    display: inline;
+    font-size: 1rem;
+    border: 2px solid rgb(95, 94, 94);
+    border-radius: 0.5vh;
+    background-color: rgb(95, 94, 94);
+    margin: 4px;
+    color: #ffffff;
+    cursor: pointer;
+     font-family: monospace;
+}
+
+.skillsP :hover{
+background-color: #473d3de5;
+}
+
+
+.Projects {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.Projects h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.locationContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.locationContainer svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    color: #333;
+}
+
+
+.locationContainer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ProjectsText {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 8px;
+    margin: 7px;
+    width: calc(35% - 20px);
+    box-sizing: border-box; 
+    margin-left: 13vh;
+}
+
+.ProjectsText a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+   text-align: center;
+
+}
+
+.ProjectsText a:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+}
+
+.ProjectsText p {
+    font-size: 0.9rem;
+    font-family: monospace;
+}
