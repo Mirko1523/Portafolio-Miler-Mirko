@@ -1,10 +1,10 @@
 .backgroundHome {
     font-family: 'Arial', sans-serif;
-    background-color: rgba(189, 189, 189, 0.938);
+    background-color: rgba(199, 199, 199, 0.938);
     padding: 20px;
     text-align: left;
     color: #333;
-    max-width: 770px; 
+    max-width: 775px; 
     margin: 0 auto; 
 }
 
@@ -182,7 +182,7 @@ background-color: #473d3de5;
     width: 16px;
     height: 16px;
     margin-right: 4px;
-    color: #333;
+    color: #000000;
 }
 
 
@@ -197,7 +197,7 @@ background-color: #473d3de5;
 }
 
 .ProjectsText {
-    border: 1px solid #ccc;
+    border: 2px solid #f8f8f8;
     border-radius: 7px;
     padding: 8px;
     margin: 7px;
