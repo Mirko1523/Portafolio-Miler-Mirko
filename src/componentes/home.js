@@ -95,7 +95,6 @@ function Home() {
           <p><strong>PostgreSQL</strong></p>
           <p><strong>Sequelize</strong></p>
           <p><strong>Node.js</strong></p>
-          <p><strong>Express</strong></p>
         </div>
       </div>
       <hr />
