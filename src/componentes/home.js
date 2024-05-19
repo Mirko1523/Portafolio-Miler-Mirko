@@ -117,6 +117,14 @@ function Home() {
             <a href='https://juegodeadivinarnumero.netlify.app/'><h3>Adivinanza</h3></a>
             <p>¡Un divertido juego donde tendrás que adivinar números del 1 al 100 con infinitos intentos y posibilidades!</p>
         </div>
+           <div className={Style.ProjectsText}>
+            <a href='https://weatherallworld.netlify.app/'><h3>Clima</h3></a>
+            <p>Aplicación donde podras buscar el clima de tu ciudad o país.</p>
+        </div>
+           <div className={Style.ProjectsText}>
+            <a href='https://allmoviesrating.netlify.app/'><h3>Rating de peliculas</h3></a>
+            <p>Encuentra la opinión de los expertos de tus peliculas favoritas.</p>
+        </div>
     </div>
 </div>
 
