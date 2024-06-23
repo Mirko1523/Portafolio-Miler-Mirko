@@ -228,3 +228,45 @@ background-color: #473d3de5;
     font-size: 0.9rem;
     font-family: monospace;
 }
+
+@media (max-width: 768px) {
+    .backgroundHome {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .basicInformation h1 {
+        font-size: 1.5rem;
+        margin-top: 5vh;
+    }
+
+    .img img {
+        margin-top: 0;
+        width: 30%;
+        height: auto;
+        border-radius: 1px;
+    }
+
+    .basicInformation p, .backgroundAboutMe p, .backgroundExperiency p, .education p, .skills p {
+        font-size: 0.875rem;
+    }
+
+    .backgroundAboutMe h1, .backgroundExperiency h1, .education h1, .skills h1, .Projects h1 {
+        font-size: 1.5rem;
+    }
+
+    .backgroundExperiency h3, .education h3 {
+        font-size: 1.25rem;
+    }
+
+    .ProjectsText {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+    }
+
+    .skills p {
+        font-size: 0.70rem;
+        margin: 2px;
+        
+    }
+}
